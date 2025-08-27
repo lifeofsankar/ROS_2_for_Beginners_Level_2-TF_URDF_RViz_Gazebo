@@ -1,0 +1,9 @@
+[0.011s] Invoking command in '/home/admin/uws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/admin/uws/build/my_robot_description -- -j16 -l16
+[0.040s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.295s] [31mCMake Error at CMakeLists.txt:10 (install):
+[0.295s]   install DIRECTORY given no DESTINATION!
+[0.295s] 
+[0.296s] [0m
+[0.402s] -- Configuring incomplete, errors occurred!
+[0.406s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.409s] Invoked command in '/home/admin/uws/build/my_robot_description' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/admin/uws/build/my_robot_description -- -j16 -l16
