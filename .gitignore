@@ -1,0 +1,24 @@
+# Byte-compiled / Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ROS2 build, install, log directories
+build/
+install/
+log/
+
+# Editor temporary files
+*.swp
+*~
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# RViz and other generated files
+*.rviz
+*.urdf~
+*.launch.py~
