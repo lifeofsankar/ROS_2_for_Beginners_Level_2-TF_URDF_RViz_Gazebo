@@ -22,3 +22,4 @@ Thumbs.db
 *.rviz
 *.urdf~
 *.launch.py~
+.vscode/
