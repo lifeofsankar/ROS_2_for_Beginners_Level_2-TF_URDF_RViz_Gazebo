@@ -33,14 +33,14 @@
         <link name="${prefix}_wheel_link">
             <visual>
                 <geometry>
-                    <cylinder radius="${wheel_radius}" />
+                    <cylinder radius="${wheel_radius}" length="${wheel_length}" />
                 </geometry>
-                <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+                <origin xyz="0.0 0.0 0.0" rpy="${pi / 2.0} 0.0 0.0"/>
                <material name="grey"/>
             </visual>
             <collision>
                 <geometry>
-                    <sphere radius="${wheel_radius}" length="${wheel_length}"/>
+                    <sphere radius="${wheel_radius}"/>
                 </geometry>
                 <origin xyz="0.0 0.0 0.0" rpy="${pi / 2.0} 0.0 0.0"/>
             </collision>
@@ -82,6 +82,12 @@
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <material name="grey"/>
         </visual>
+        <collision>
+            <geometry>
+                <sphere radius="${wheel_radius/2}"/>
+            </geometry>
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        </collision>
         <xacro:sphere_inertia m="0.5" r="${wheel_radius/2}" o_xyz="0.0 0.0 0.0" o_rpy="0.0 0.0 0.0" />
     </link>
 
