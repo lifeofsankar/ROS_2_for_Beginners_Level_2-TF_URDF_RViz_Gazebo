@@ -44,13 +44,8 @@ source install/setup.bash
 - ✅ URDF Modeling – links, joints, colors, collision & inertia  
 - ✅ Xacro – modular & reusable robot descriptions  
 - ✅ Robot State Publisher – publishing TF for the robot model  
-- ⏳ Gazebo Integration – spawn robots, add plugins, sensors  
-- ⏳ Final Project – robotic arm + multi-robot setup  
-
----
-
-## 📸 Demos
-(Add screenshots/GIFs of your robot in RViz or Gazebo here.)
+- ✅ Gazebo Integration – spawn robots, add plugins, sensors  
+- ✅ Final Project – robotic arm + multi-robot setup  
 
 ---
 
@@ -58,9 +53,9 @@ source install/setup.bash
 - Section 1: TF ✔️  
 - Section 2: URDF ✔️  
 - Section 3: Robot State Publisher ✔️  
-- Section 4: Xacro ⏳  
-- Section 5: Gazebo Integration ⏳  
-- Section 6: Final Project ⏳  
+- Section 4: Xacro ✔️   
+- Section 5: Gazebo Integration ✔️  
+- Section 6: Final Project ✔️  
 
 ---
 
