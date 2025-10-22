@@ -31,7 +31,7 @@ Clone this repo inside your ROS 2 workspace and build:
 
 ```bash
 cd ~/ros2_ws/src
-git clone https://github.com/<your-username>/<repo-name>.git
+git clone https://github.com/lifeofsankar/ROS_2_for_Beginners_Level_2-TF_URDF_RViz_Gazebo.git
 cd ~/ros2_ws
 colcon build
 source install/setup.bash
